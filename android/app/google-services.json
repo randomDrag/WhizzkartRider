@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "project_number": "562227227504",
+    "project_id": "whizzkart-e4489",
+    "storage_bucket": "whizzkart-e4489.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562227227504:android:20e0fe17de1eb889497db5",
+        "android_client_info": {
+          "package_name": "com.whizzkart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562227227504-n1v7orqd6q2o05feiusfk28t7201kpn4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXyNJ3a_s4cpZV_HdEnssqI3yF4Z9J1w0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562227227504-n1v7orqd6q2o05feiusfk28t7201kpn4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562227227504:android:916c127dd8cc56a0497db5",
+        "android_client_info": {
+          "package_name": "com.whizzkart.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562227227504-n1v7orqd6q2o05feiusfk28t7201kpn4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXyNJ3a_s4cpZV_HdEnssqI3yF4Z9J1w0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562227227504-n1v7orqd6q2o05feiusfk28t7201kpn4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562227227504:android:b1f4b9d6cb49eb3b497db5",
+        "android_client_info": {
+          "package_name": "com.whizzkart.delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562227227504-n1v7orqd6q2o05feiusfk28t7201kpn4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXyNJ3a_s4cpZV_HdEnssqI3yF4Z9J1w0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562227227504-n1v7orqd6q2o05feiusfk28t7201kpn4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562227227504:android:ccf0f2a39d38c912497db5",
+        "android_client_info": {
+          "package_name": "com.whizzkart.vendor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562227227504-n1v7orqd6q2o05feiusfk28t7201kpn4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXyNJ3a_s4cpZV_HdEnssqI3yF4Z9J1w0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562227227504-n1v7orqd6q2o05feiusfk28t7201kpn4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

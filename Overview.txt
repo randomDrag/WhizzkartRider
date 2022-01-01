@@ -1,0 +1,190 @@
+npm install @react-navigation/native@^5.x
+
+npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+npm install @react-navigation/stack@^5.x
+npm install @react-navigation/bottom-tabs@^5.x
+
+add import 'react-native-gesture-handler'; in index.js
+
+
+
+
+npm install @react-native-async-storage/async-storage
+
+
+npm install --save @react-native-community/clipboard
+
+npm install @reduxjs/toolkit
+npm install react-redux
+
+npm install axios
+
+npm install moment
+
+npm install react-native-elements
+npm install react-native-paper
+
+
+
+
+npm install --save react-native-vector-icons
+    # Edit android/app/build.gradle ( NOT android/build.gradle ) and add the following:
+        apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+    # Edit android/settings.gradle to look like this (without the +):
+        + include ':react-native-vector-icons'
+        + project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+
+    For ios
+    # open InnerPsychOctober.xcworkspace in XCode and add fonts folder
+    # Add these line in Info.plist 
+      <key>UIAppFonts</key>
+            <array>
+                <string>AntDesign.ttf</string>
+                <string>Entypo.ttf</string>
+                <string>EvilIcons.ttf</string>
+                <string>Feather.ttf</string>
+                <string>FontAwesome.ttf</string>
+                <string>FontAwesome5_Brands.ttf</string>
+                <string>FontAwesome5_Regular.ttf</string>
+                <string>FontAwesome5_Solid.ttf</string>
+                <string>Foundation.ttf</string>
+                <string>Ionicons.ttf</string>
+                <string>MaterialIcons.ttf</string>
+                <string>MaterialCommunityIcons.ttf</string>
+                <string>SimpleLineIcons.ttf</string>
+                <string>Octicons.ttf</string>
+                <string>Zocial.ttf</string>
+                <string>Fontisto.ttf</string>
+            </array>
+
+
+
+
+
+npm i --save lottie-react-native
+    # android/app/src/main/java/<AppName>/MainApplication.java
+        add import com.airbnb.android.react.lottie.LottiePackage; on the imports section
+        add packages.add(new LottiePackage()); in List<ReactPackage> getPackages();
+
+    # android/app/build.gradle
+        add implementation project(':lottie-react-native') in the dependencies block
+
+    # android/settings.gradle
+        include ':lottie-react-native'
+        project(':lottie-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/lottie-react-native/src/android')
+
+
+
+
+
+npm i react-native-image-crop-picker --save
+
+    For ios add: 
+        <key>NSPhotoLibraryUsageDescription</key>
+            <string> PsychCanberra need to access your photo library</string>
+
+        <key>NSCameraUsageDescription</key>
+            <string> PsychCanberra requires camera access to take photo</string>
+
+        <key>NSMicrophoneUsageDescription </key>
+            <string> PsychCanberra needs microphone access</string>
+
+    For android add:
+       # android/build.gradle
+             // ADD THIS
+            maven { url 'https://maven.google.com' }
+
+        # android/app/build.gradle
+            defaultConfig {
+                ...
+                vectorDrawables.useSupportLibrary = true
+                ...
+            }
+
+        # android/app/src/main/AndroidManifest.xml
+            <uses-permission android:name="android.permission.CAMERA"/>
+            <uses-feature android:name="android.hardware.camera" android:required="false" />
+            <uses-feature android:name="android.hardware.camera.front" android:required="false" />
+                
+        
+
+
+
+
+npm i --save lottie-react-native
+    # android/app/src/main/java/<AppName>/MainApplication.java
+        add import com.airbnb.android.react.lottie.LottiePackage; on the imports section
+        add packages.add(new LottiePackage()); in List<ReactPackage> getPackages();
+
+    # android/app/build.gradle
+        add implementation project(':lottie-react-native') in the dependencies block
+
+    # android/settings.gradle
+        include ':lottie-react-native'
+        project(':lottie-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/lottie-react-native/src/android')
+
+
+
+
+
+
+npm i react-native-share --save
+
+
+npm install react-native-reanimated
+npm install reanimated-bottom-sheet
+npm install react-native-gesture-handler
+    # index.js
+         import 'react-native-gesture-handler';
+
+
+
+
+npm install react-native-fs --save
+
+    # android/settings.gradle
+        ...
+        include ':react-native-fs'
+        project(':react-native-fs').projectDir = new File(settingsDir, '../node_modules/react-native-fs/android')
+
+    # android/app/build.gradle
+        ...
+        dependencies {
+            ...
+            implementation project(':react-native-fs')
+        }
+
+    # in android/app/src/main/java/<AppName>/MainApplication.java
+        import com.rnfs.RNFSPackage; // <------- add package
+
+
+
+npm install react-native-elements
+
+yarn add react-native-image-viewing
+npm install react-native-image-viewing
+
+
+npm install react-native-animatable
+
+npm install @react-native-firebase/messaging
+
+geoCoder
+geoLocation
+Status Updating 
+Rating and reviews`1234690-                   
+
+
+
+npm i react-native-webview
+
+
+keytool -genkey -v -keystore whizzkartDelivery.keystore -alias whizzkartDelivery -keyalg RSA -keysize 2048 -validity 10000
+
+
+
+
+
+npm i -D @bam.tech/react-native-make
+
+npx react-native set-icon --path /Users/kewalwason/Downloads/whizzkartAppIcon.png
